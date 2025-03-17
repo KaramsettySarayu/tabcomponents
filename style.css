@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    border: 0
+}
+
+body{
+    font-family: "Atkinson Hyperlegible Next", sans-serif;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#course-container {
+    width: 399px;
+    height: 500px;
+    /* border: 1px solid black; */
+    box-shadow: 0 0 20px gray;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#btn-container {
+    display: flex;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+.active {
+    background-color: Grey;
+    border-bottom: 6px solid orange;
+}
+
+.btn {
+    width: 133px;
+    height: 40px;
+    background-color: #404040;
+    color: white;
+    box-shadow: 0 7px 10px gray;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+#section1 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+#section2 {
+    margin: 20px;
+}
+#java,#javascript{
+    display: none;
+}
