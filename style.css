@@ -40,6 +40,7 @@ body{
     color: white;
     box-shadow: 0 7px 10px gray;
     border-bottom: 6px solid transparent;
+    padding-top: 6px;
 }
 
 .active {
